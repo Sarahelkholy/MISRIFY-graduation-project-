@@ -38,26 +38,6 @@ Put your PNGs/JPGs into `docs/demo/` using the names below and this table will r
 - Flutter, Dart  
 - flutter_native_splash, flutter_screenutil
 
----
-
-## 📁 Repository Structure (simplified)
-
-/mobile # Flutter app (this is what I built)
-└─ lib/
-├─ main.dart
-├─ constants/constants.dart # <-- API base URL lives here (appBaseUrl)
-├─ controllers/...
-└─ views/...
-
-/server # Node/Express backend (team project)
-├─ server.js
-├─ routes/
-├─ controllers/
-├─ models/
-└─ lib/ (redis, cloudinary, stripe, etc.)
-
-yaml
-Copy code
 
 ---
 
@@ -163,3 +143,4 @@ For a Flutter mobile app hitting http://<LAN-IP>:5000, CORS should allow that or
 LAN Testing: Device and PC must be on the same Wi-Fi; use the PC’s IPv4 in appBaseUrl.
 
 Do not commit secrets: .env files are ignored via .gitignore.
+
