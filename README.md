@@ -19,7 +19,7 @@ Put your PNGs/JPGs into `docs/demo/` using the names below and this table will r
 
 | Screen            | Demo                                                                 |
 |-------------------|----------------------------------------------------------------------|
-| Sign up            | <img width="1080" height="2400" alt="sign_up" src="https://github.com/user-attachments/assets/50b692bd-a36d-4605-a512-3d7a27262d65" />
+| Sign up            | !<img width="1080" height="2400" alt="sign_up" src="https://github.com/user-attachments/assets/50b692bd-a36d-4605-a512-3d7a27262d65" />
                           |
 | Login        | <img width="1080" height="2400" alt="login" src="https://github.com/user-attachments/assets/4d0b467b-dbb5-4121-96de-47284691028b" />
                       |
@@ -169,4 +169,5 @@ Checkout (cash/online payments depending on backend config)
 Orders history, profile, and notifications
 
 Responsive layout (ScreenUtil), native splash
+
 
