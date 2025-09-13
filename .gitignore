@@ -1,0 +1,42 @@
+﻿# ---- Flutter / Dart
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.metadata
+**/.idea/
+**/.vscode/
+**/GeneratedPluginRegistrant.*
+
+# ---- Android / Gradle
+**/.gradle/
+**/local.properties
+**/android/app/google-services.json
+**/android/key.jks
+**/android/app/release/*
+**/android/app/debug/*
+**/android/app/profile/*
+
+# ---- iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Pods/
+
+# ---- Windows / Linux build artifacts
+**/windows/**/Debug/
+**/linux/**/Debug/
+
+# ---- Node / web
+client/node_modules/
+server/node_modules/
+
+# ---- Secrets
+.env
+**/.env
+server/.env
+client/.env

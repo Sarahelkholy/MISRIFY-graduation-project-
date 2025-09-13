@@ -1,0 +1,73 @@
+{
+  "name": "graduation-project",
+  "version": "1.0.0",
+  "description": "\"# Graduation-Project\"",
+  "main": "server.js",
+  "scripts": {
+    "dev": "SET NODE_ENV=development & nodemon server/server.js",
+    "start": "SET NODE_ENV=production & nodemon server/server.js",
+    "build": "npm install && npm install --prefix client",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Ahmed Algrgawy | Reem Ghareeb",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@upstash/redis": "^1.35.3",
+    "axios": "^1.8.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cloudinary": "^2.5.1",
+    "compression": "^1.8.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.4.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^6.9.16",
+    "react-easy-crop": "^5.4.1",
+    "react-image-file-resizer": "^0.4.8",
+    "stripe": "^17.4.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-jest": "^30.0.0",
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.6",
+    "supertest": "^7.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ],
+    "coverageDirectory": "coverage",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    },
+    "setupFilesAfterEnv": [
+      "./server/__tests__/setup.js"
+    ],
+    "clearMocks": true,
+    "resetMocks": true,
+    "restoreMocks": true,
+    "coveragePathIgnorePatterns": [
+      "/coverage/"
+    ]
+  }
+}
