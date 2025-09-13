@@ -61,6 +61,26 @@ Copy code
 
 ---
 
+##🧪 Features (Mobile)
+Onboarding & Auth (login/register/OTP flows, token storage)
+
+Product list, search, filters, brands & categories
+
+Product details with gallery, reviews & rating
+
+Cart & Wishlist (persisted locally + synced with API)
+
+Checkout (cash/online payments depending on backend config)
+
+Orders history, profile, and notifications
+
+Responsive layout (ScreenUtil), native splash
+
+---
+
+
+
+
 ## 🚀 Getting Started
 
 ### 1) Clone
@@ -131,7 +151,7 @@ Copy code
 docker run -d --name redis-dev -p 6379:6379 redis:7.2
 Start the server:
 
-bash
+```bash
 Copy code
 npm run dev   # nodemon
 # or
@@ -143,21 +163,3 @@ For a Flutter mobile app hitting http://<LAN-IP>:5000, CORS should allow that or
 LAN Testing: Device and PC must be on the same Wi-Fi; use the PC’s IPv4 in appBaseUrl.
 
 Do not commit secrets: .env files are ignored via .gitignore.
-
-🧪 Features (Mobile)
-Onboarding & Auth (login/register/OTP flows, token storage)
-
-Product list, search, filters, brands & categories
-
-Product details with gallery, reviews & rating
-
-Cart & Wishlist (persisted locally + synced with API)
-
-Checkout (cash/online payments depending on backend config)
-
-Orders history, profile, and notifications
-
-Responsive layout (ScreenUtil), native splash
-
-
-
