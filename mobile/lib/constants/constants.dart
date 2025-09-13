@@ -1,8 +1,6 @@
 import 'dart:ui';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-String googleApiKey = '';
-
 const kLightWhite = Color(0xffDDDEE5);
 const kLightGray = Color(0xffC3C3C3);
 const kGray = Color.fromRGBO(120, 118, 118, 1);
@@ -17,7 +15,7 @@ const Knavbarlabels = Color(0xff9DB2CE);
 const KNavyBlack = Color(0xff0C1A30);
 const KblueOcean = Color(0xff3669C9);
 const KTextColor = Color(0xff252B42);
-const Kblack = Color(0xff1A1A1A);
+const kblack = Color(0xff1A1A1A);
 const Kfoundation = Color(0xff121111);
 double height = 825.h;
 double width = 375.w;
